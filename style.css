@@ -1,0 +1,58 @@
+/* whole pages */
+
+html{
+    margin:20px;
+    border:5px;
+    padding: 10px;
+   background-color: lightblue;
+}
+
+body{
+    margin: 10px;
+    border: 5px;
+    padding: 50px;
+}
+
+/* align my headers*/
+h1, h3{
+    text-align: center;
+}
+/*gives me solid border lines and makes it not span across whole page*/
+.mytable{
+    border-collapse: collapse;
+    width: 50%;
+}
+/*table rows and data specs*/
+tr, td{
+    align-content: center;
+    text-align: center;
+    border: 3px solid black;
+}
+
+p {
+    text-align: left;
+    width: 50%;
+}
+
+li {
+    color: gray;
+}
+/*aligns my images*/
+img {
+    float: left;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+/*class selctor to make a single paragraph red*/
+.red {
+    color:red;  
+}
+
+a:any-link {
+    color: black;
+    border-bottom: 3px solid bisque;
+}
+
+a:hover {
+    color: aliceblue;
+}
